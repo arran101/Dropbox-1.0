@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(130, 139, 143, 0.301);
+}
+h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.head{
+    padding: 50px;
+}
+p{
+    font-size: 20px;
+}
+.form{
+    padding-bottom: 50px;
+}
+.list-group{
+    width: 50%;
+    text-align: center;
+}
