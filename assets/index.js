@@ -44,3 +44,13 @@ $(function () {
 // const download = name => {
 //     $.get(`/uploads/${name}`)
 // }
+
+
+/*TODO- if I have time later/ can be bothered
+
+- if the same files are sent in they get appended onto the download list, even though there is already one existing there- can do this by making an if statement to wrap everything above in, if data is there don't post, if not then post
+
+- consider changing the download button to a download box to be able to drop files into- instead of submit form have a div that wraps the download files div (or just use the container there) and make a on drop function
+
+- consider adding a delete button- have to make an ajax delete request and node delete request
+ */
